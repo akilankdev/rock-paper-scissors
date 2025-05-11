@@ -12,14 +12,14 @@
         score.ties = 0;
       }
       
-      //Defaultly autoplay is disbled at first and then when we click the button.it sets to 'true'.
+      //Defaultly autoplay is disabled at first.
       let isAutoPlaying = false;
-      //setInterval returns a number.The number can be used to stop the interval by passing to a built-in function CLEARINTERVAL().It acts as an ID to stop the interval.We defined it outside so 
+      
       let intervalId;
 
       //AUTOPLAY FEATURE
       function autoPlay() {
-        //Check if autoplay is off.If its off,start autoplay.else stop it.
+        //Check if autoplay is off.If its off,start autoplay ,else stop it.
         if (!isAutoPlaying){
           //This is a callback function so used arrow function.
 
