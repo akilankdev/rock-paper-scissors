@@ -1,0 +1,50 @@
+
+body {
+  background-color: rgb(25, 25, 25);
+  font-family: Arial;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  font-weight: bold
+}
+
+.moves-btn {
+  height:120px;
+  width: 120px;
+  border: 3px solid rgb(107, 168, 225);
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.move-emoji {
+  height: 50%;
+  width: auto;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.your-move-emoji {
+  height: 65px;
+}
+
+.score {
+  margin-top: 3em;
+}
+.reset-score-btn,
+.auto-play-btn {
+  border: none;
+  height: 40px;
+  width: 130px;
+  margin-top: 10px;
+  font-size:16px;
+  cursor: pointer;
+}
