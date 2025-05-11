@@ -21,7 +21,6 @@
       function autoPlay() {
         //Check if autoplay is off.If its off,start autoplay ,else stop it.
         if (!isAutoPlaying){
-          //This is a callback function so used arrow function.
 
           intervalId = setInterval(() => { 
             let playerMove = pickComputerMove();
